@@ -1,6 +1,7 @@
 body {
 	width: 1000px;
 	height: 1000px;
+	font-size: 0;
 }
 
 .container {
@@ -11,12 +12,22 @@ body {
 .row {
 	width: 100%;
 	display: inline-block;
-	margin-top: -4px;
+	white-space: nowrap;
 }
 
 .square {
 	height: 100%;
-	border: 1px solid black;
+	border: 1px solid #F2F2F2;
 	display: inline-block;
+}
 
+.color {
+	background-color: rgba(0, 255, 204, .5);
+}
+
+button {
+	font-family: 'Amatic SC', cursive;
+	font-size: 32px;
+	margin: 5px;
+	margin-bottom: 20px;
 }

@@ -1,0 +1,1 @@
+In this project, I will build an interactive, color-changing grid utilizing HTML, CSS, JavaScript, and jQuery.

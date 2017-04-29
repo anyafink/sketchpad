@@ -1,7 +1,10 @@
 body {
-	width: 1000px;
-	height: 1000px;
+	width: 850px;
+	height: 850px;
 	font-size: 0;
+	margin: auto;
+	background-color: white;
+
 }
 
 .container {
@@ -21,13 +24,15 @@ body {
 	display: inline-block;
 }
 
-.color {
-	background-color: rgba(0, 255, 204, .5);
-}
-
 button {
 	font-family: 'Amatic SC', cursive;
 	font-size: 32px;
 	margin: 5px;
 	margin-bottom: 20px;
 }
+
+.button {
+	text-align: center;
+	margin-top: 10px;
+}
+
